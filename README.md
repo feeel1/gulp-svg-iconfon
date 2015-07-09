@@ -5,11 +5,14 @@ npm install
 
 Установка bower components:
 `bower install --save square-file-icons`
+
 ================
 dis - сгенерированый шрифт svg ttf eot woff и css.
+
 example - папка с примером (при :hover используются две разные иконки, с разной заливкой).
 
 icons - папка с svg которые будем генерировать.
+
 ================
 
 В gulpfile.js можно отредактировать название шрифта, в переменной fontName, а также можно изменить сlass который используется в css в место sf можно поставит fa.
@@ -30,18 +33,15 @@ icons - папка с svg которые будем генерировать.
 
 `pull-right pull-left` позиционирование.
 
-
 Вращение иконки:
-  fa-rotate-90
-  fa-rotate-180
-  fa-rotate-270
-  fa-flip-horizontal
-  fa-flip-vertical
+`fa-rotate-90 fa-rotate-180 fa-rotate-270 fa-flip-horizontal fa-flip-vertical`
 Примеры можно посмотреть:
-
 ```Example
 http://fortawesome.github.io/Font-Awesome/examples/
 ````
+
+================
+Другие классы:
+
 `sf-colorful` полная заливка элемента, прописываем css.
 `sf-hover` замена на другую иконку прописываем tamplate.css (пример можно посмотреть в example)
-================
