@@ -45,3 +45,6 @@ http://fortawesome.github.io/Font-Awesome/examples/
 
 `sf-colorful` полная заливка элемента, прописываем css.
 `sf-hover` замена на другую иконку прописываем tamplate.css (пример можно посмотреть в example)
+
+Читаем про SVG http://css.yoksel.ru/svg-icons/
+-----------------
